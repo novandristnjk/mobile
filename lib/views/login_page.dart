@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart'; // Import package SVG
+import 'package:flutter_svg/flutter_svg.dart';
 import '../services/auth_service.dart';
 
 class LoginPage extends StatefulWidget {
@@ -189,31 +189,6 @@ class LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 const SizedBox(height: 20),
-
-                // Dummy Credentials Info
-                // Container(
-                //   width: double.infinity,
-                //   padding: const EdgeInsets.all(16),
-                //   decoration: BoxDecoration(
-                //     color: Colors.blue[50],
-                //     borderRadius: BorderRadius.circular(12),
-                //   ),
-                //   child: Column(
-                //     crossAxisAlignment: CrossAxisAlignment.start,
-                //     children: [
-                //       Text(
-                //         'Credential Dummy:',
-                //         style: TextStyle(
-                //           fontWeight: FontWeight.bold,
-                //           color: Colors.blue[800],
-                //         ),
-                //       ),
-                //       const SizedBox(height: 8),
-                //       const Text('Email: user@example.com'),
-                //       const Text('Password: password123'),
-                //     ],
-                //   ),
-                // ),
               ],
             ),
           ),
