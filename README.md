@@ -1,27 +1,18 @@
 ## 1. Setup & How to Run (Via USB Smartphone)
 
-### A. Environment Setup
-#### 1) System Requirements
+#### 1) Activate USB Debugging in Smartphone
 - Python 3.11+
 - Conda/Anaconda (recommended for environment management)
 
-#### 2) Set up Conda Environment
+#### 2) Install Android USB Driver
+
+#### 3) Check Device
 ```bash
-conda create -n <your_conda_environtment> python=3.11
-conda activate <your_conda_environtment>
-pip install -r /requirements.txt
+flutter devices
 ```
 
-#### 2) Set up Conda Environment
+#### 4) Run Apps
 ```bash
-conda create -n <your_conda_environtment> python=3.11
-conda activate <your_conda_environtment>
-pip install -r /requirements.txt
-```
-
-
-#### 3) Run API
-```bash
-python main.py
+flutter run
 ```
 
