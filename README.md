@@ -1,16 +1,27 @@
-# mobile_st
+## 1. Setup & How to Run (Via USB Smartphone)
 
-A new Flutter project.
+### A. Environment Setup
+#### 1) System Requirements
+- Python 3.11+
+- Conda/Anaconda (recommended for environment management)
 
-## Getting Started
+#### 2) Set up Conda Environment
+```bash
+conda create -n <your_conda_environtment> python=3.11
+conda activate <your_conda_environtment>
+pip install -r /requirements.txt
+```
 
-This project is a starting point for a Flutter application.
+#### 2) Set up Conda Environment
+```bash
+conda create -n <your_conda_environtment> python=3.11
+conda activate <your_conda_environtment>
+pip install -r /requirements.txt
+```
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### 3) Run API
+```bash
+python main.py
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
